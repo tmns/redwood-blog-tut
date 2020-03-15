@@ -4,7 +4,9 @@ const BlogLayout = ({ children }) => {
   return (
     <>
       <header>
-        <h1>RedwoodJS Blog</h1>
+        <h1>
+          <Link to={routes.home()}>RedwoodJS Blog</Link>
+        </h1>
         <nav>
           <ul>
             <li>
